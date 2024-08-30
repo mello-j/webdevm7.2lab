@@ -1,4 +1,6 @@
+// Expose the functions to the global scope
 window.onload = loaded;
+window.helloAlert = helloAlert;
 
 /**
  * Simple Function that will be run when the browser is finished loading.
@@ -7,6 +9,8 @@ function loaded() {
     // Assign to a variable so we can set a breakpoint in the debugger!
     const hello = sayHello();
     console.log(hello);
+
+
 }
 
 /**
@@ -16,3 +20,10 @@ function loaded() {
 export function sayHello() {
     return 'hello';
 }
+
+export function helloAlert(){
+    alert(sayHello());
+}
+
+
+
