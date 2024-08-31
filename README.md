@@ -36,12 +36,11 @@ Select the index.html file from the Explorer Window.
 Then, using the VS Code Command Palette, type:
 `> Live Preview Start Server.`
 
-This will open up a website preview. However in order to see the functionality of the Hi button, you will need to open this in an external browser.
+This will open up a website preview. However in order to see the functionality of the Hi button, you will need to open this in an external browser. To do so click on the 3 lines to the top right of the preview window and select 'Open in Browser'.
 
+That's it! You can click the Hi button to view a alert dialog window, check out my introduction video, and navigate to my Help page for basically a redundant set of these instructions. The other navigation links are Rick Rolled videos so feel free to avoid them.
 
-Select the window that opens and open it in an external browser.
-
-Then enjoy the site! And leave me comments to make it look less ugly in your code review :)
+Enjoy the site! And leave me comments to make it look less ugly in your code review :)
 
 ## Sources and Credits
 I don't have a lot for sources and credits, the images and videos are my own. I am linking out to Youtube but there is no explicit use of it on the site. 

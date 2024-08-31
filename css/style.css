@@ -40,7 +40,11 @@ body {
   border-bottom: 2px solid black;
 }
 
-.button{
+.list {
+  text-align: left;
+}
+
+.button, .button2{
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -57,7 +61,7 @@ body {
   border-bottom: 1px solid black;
 }
 
-.hi{
+.hi, .hi2{
   color: white;
   background-color:blue;
   font-size: 20px;
@@ -70,6 +74,7 @@ body {
 
 #repo {
   color: blue;
+  text-align: justify;
 }
 
 a{
