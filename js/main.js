@@ -21,6 +21,9 @@ export function sayHello() {
     return 'hello';
 }
 
+/**
+ * This function will display an alert box with the result of the sayHello function
+ */
 export function helloAlert(){
     alert(sayHello());
 }

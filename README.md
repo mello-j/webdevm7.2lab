@@ -12,7 +12,9 @@ Module 2: Lab 2.2
 
 This is a project for CS 408 Full Stack Web Development. This is meant to be an introductory lab to dust off the cobwebs from CS 208, working through a light sample of HTML, CSS, JavaScript, and using the IDE and other associated tools to run the lab.
 
-My Project is relatively basic but meets the functional requirements  as noted in Task 6 in the Lab Guide. I added a non-functional nav-bar for now (if you want to be rick-rolled, feel free to click on one of the links). I also added a link to my Github page from CS 208 that I added a few cool things too. That's pretty much it! For detailed descriptions on how to run/navigate the webpage, see the "Run the Site" section.
+My Project is relatively basic but meets the functional requirements  as noted in Task 6 in the Lab Guide. I added a non-functional nav-bar for now (if you want to be rick-rolled, feel free to click on one of the links). 
+The help page does work, linking to a short overview of how to use the page (basically a redundant version of what's provided in this read me). Additionally I added a Panopto Video introduction, and a Panopto Video Walkthrough.
+That's pretty much it! For detailed descriptions on how to run/navigate the webpage, see the "Run the Site" section.
 
 #### Project Requirements
 
@@ -27,18 +29,26 @@ My Project is relatively basic but meets the functional requirements  as noted i
     - some basic CSS to make it look pretty.
 
 ### Run the Site
-There's really nothing special to get this up and running. To run everything you will need to Fork or Clone this [repository](https://github.com/mello-j/web-dev-M2.2lab) and open in up in an IDE on your local PC or in VS Codespaces.
+There's really nothing special to get this up and running. You can follow the steps below, or watch this walkthrough video (note in the video I missed as step. After cloning the repo, run `npm install` for the necessary project dependencies.)
 
-Once you have cloned the Repo, open it up in VS Code.
+[Run the Site Walkthrough Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a99d2f49-480d-41de-8b02-b1dd001f34d6)
 
-Select the index.html file from the Explorer Window.
+1. To run everything you will need to Fork or Clone this [repository](https://github.com/mello-j/web-dev-M2.2lab) to your local PC.
 
-Then, using the VS Code Command Palette, type:
+2. You can do this with the `git clone` command in your terminal. Make sure you run this in the directory you would like to clone the repository in!
+
+3. After successfully cloning the repository, run `npm install` to install the necessary dependencies for the project.
+
+4. Once you have cloned the Repo, open it up in VS Code. It is recommended to do so with the `code .` command.
+
+5. With VS Code open, select the index.html file from the VS Code Explorer Window.
+
+6. Then, using the VS Code Command Palette, type:
 `> Live Preview Start Server.`
 
-This will open up a website preview. However in order to see the functionality of the Hi button, you will need to open this in an external browser. To do so click on the 3 lines to the top right of the preview window and select 'Open in Browser'.
+7. This will open up a website preview. However in order to see the functionality of the Hi button, you will need to open this in an external browser. To do so click on the 3 lines to the top right of the preview window and select 'Open in Browser'.
 
-That's it! You can click the Hi button to view a alert dialog window, check out my introduction video, and navigate to my Help page for basically a redundant set of these instructions. The other navigation links are Rick Rolled videos so feel free to avoid them.
+8. That's it! You can click the Hi button to view a alert dialog window, check out my introduction video, and navigate to my Help page for basically a redundant set of these instructions. The other navigation links are Rick Rolled videos so feel free to avoid them.
 
 Enjoy the site! And leave me comments to make it look less ugly in your code review :)
 
