@@ -27,25 +27,28 @@ My Project is relatively basic but meets the functional requirements  as noted i
     - some basic CSS to make it look pretty.
 
 ### Run the Site
-There's really nothing specual to get this up and running. To run everything you will need to Fork or Clone this repo and open in up in an IDE on your local PC or in VS Codespaces.
+There's really nothing special to get this up and running. To run everything you will need to Fork or Clone this [repository](https://github.com/mello-j/web-dev-M2.2lab) and open in up in an IDE on your local PC or in VS Codespaces.
 
-Once you have cloned the Repo,
+Once you have cloned the Repo, open it up in VS Code.
+
+Select the index.html file from the Explorer Window.
+
+Then, using the VS Code Command Palette, type:
+`> Live Preview Start Server.`
+
+This will open up a website preview. However in order to see the functionality of the Hi button, you will need to open this in an external browser.
+
+
+Select the window that opens and open it in an external browser.
+
+Then enjoy the site! And leave me comments to make it look less ugly in your code review :)
 
 ## Sources and Credits
+I don't have a lot for sources and credits, the images and videos are my own. I am linking out to Youtube but there is no explicit use of it on the site. 
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+I relied a bit on W33 schools tutorials as my CSS is rusty, they had some handy ones on navigation bars, basic CSS, and JavaScript functions. The links to those tutorials are provided below.
 
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- [W3 Schools - Alert Dialog Box](https://www.w3schools.com/jsref/met_win_alert.asp)
+- [W3 Schools - CSS](https://www.w3schools.com/css/)
+- [W3 Schools - On click javascript](https://www.w3schools.com/jsref/event_onclick.asp)
+- 

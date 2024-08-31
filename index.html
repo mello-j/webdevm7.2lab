@@ -10,6 +10,7 @@
 </head>
 <header>
   <h1>CS408 Lab 2.2!</h1>
+  <h2 id="subtitle">This website is under construction...</h2>
   <div class="topnav">
       <a href="index.html">Home</a>
       <a href="help.html">Help</a>
@@ -18,29 +19,28 @@
   </div>
 </header>
 <body>
-  <h1>Hello! Welcome to Justin's Lab 2 Demo!</h1>
-  <p> To have me say hello, click the "Hi!" Button!</p>
-  <button onclick="helloAlert()">Hi!</button>
-  <p> This is a simple demonstration of a website that uses HTML, CSS, and JavaScript. </p>
-  <p> It was created for CS 408...please be nice on your Code Review, I was lazy in throwing this together but it does meet all the requirements!</p>
-  <p> All information is available within the README section of my repository.</p>
-  <ul>This is a list and it contains some information about me!</ul>  
-    <li>My Name: </li>
-    <ul>
-      <li>Justin Mello</li>
-    </ul>
-    <li>When I expect to graduate </li>
-    <ul>
-      <li>My Wishful Graduation Date - Spring/Summer 2025</li>
-    </ul>
-    <li>Have you had a job or internship doing web dev
-      <ul>
-        <li>Not quite, I use basic HTML and CSS within Canvas Course developments, but there are substantial limits based on the Canvas Environment</li>
-      </ul>
-      <li>Have you had a job or internship doing web dev?</li>
-      <ul>
-        <li>No job or internship in Web Development</li>
-      </ul>
+  <div class="intro">
+    <h1>Hello! Welcome to Justin's Lab 2 Demo!</h1>
+    <img id="cold" src="img/cold.JPG" alt="Justin with a frozen beard">
+  </div>
+  <div class="button">
+    <p> To have me say hello, click the "Hi!" Button!</p>
+    <button class="hi" onclick="helloAlert()">&#128075 Hi! &#128075</button>
+  </div>
+  <div class="text">
+    <p>This is a simple demonstration of a website that uses HTML, CSS, and JavaScript. </p>
+    <p> It was created for CS 408...please be nice on your Code Review, I was lazy in throwing this together but it does meet all the requirements!</p>
+    <p> All information is available within the README section of my repository.</p>
+    <ul id="main">This is a list and it contains some information about me!</ul>  
+      <li>My Name: <em>Justin Mello</em></li>
+      <li>When I expect to graduate: <em>Hopefully by Spring/Summer 2025</em></li>
+      <li>Do you currently have a job doing web dev? <em> Not exactly....use some html/css but within Canvas so super basic.</em>
+      <li>Have you had a job or internship doing web dev?<em>Uhhhh see the answer to the above. Not really....but kind of? But no.</em></li>
+  </div>
+  <div class="video">
+    <p> If you prefer you can watch this short video introduction instead of reading ugly text!</p>
+    <iframe src="https://boisestate.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=bf4cbf16-0e7a-4ff1-b07c-b1dd0008923f&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Fri Aug 30 2024 6:31:12 PM" ></iframe>
+  </div>
 <script type="module" src="js/main.js"></script>       
 </body>
 <footer>
