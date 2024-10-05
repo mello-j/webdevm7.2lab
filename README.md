@@ -32,9 +32,12 @@ I used a lot of previous knowledge in playing around with this one. I have a lit
 
 The readings did add some additional knowledge on flexbox, and on using float to handle the text nicely (particularly how the margins work with float.)
 
+The biggest reference used was the positioning section provided in the README for the module, the sticky positioning section in the Positioning reading basically solved one of the problems needed exactly (allowing the element to act in relative positioning until reaching a specific point) which is exactly what we needed to accomplish in this lab.
+
 - Float: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
 - FlexBox: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 - Positioning: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
 
 
 ## Closing thoughts
+For now, I just wanted a complete lab after my difficulty in getting last week's lab done on time. So I took the easiest route of using prior experience. I duplicating index.html and the original css style sheet to replicate the same layout with the grid format which actually ended up being a bit more intuitive initially than Flexbox for column distribution, I also like the additionally flexibility of placement items with grid layout/this was really fun to play around with.
