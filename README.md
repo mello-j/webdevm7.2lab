@@ -10,7 +10,7 @@ Module 7: Lab 7.2
 
 # Project Description
 
-This project was to create a very visually appealing letterhead template using advanced CSS techniques, and a Lorem Ipsum generator for text.
+This project was to work with advanced CSS to style a page in a visually appealing format using different advanced CSS techniques.
 
 ## Running the Website
 
@@ -28,15 +28,13 @@ This project was to create a very visually appealing letterhead template using a
 
 
 ## Sources and Credits
-I used a lot of previous knowledge in playing around with this one. That may have made it more difficult as I tried to accomplish things with that I know versus using new items that were covered in the reading that would have made this much easier/more efficient. I hope to review some of the previous weeks reading in addition to the next modules content and get caught up soon as work should slow down in the next week or two.
+I used a lot of previous knowledge in playing around with this one. I have a little experience with Flexbox (used in Lab 4 to create a VERY similar layout), and decided to use it initially to just complete the lab. 
 
-Text was taken directly from the Lorem Ipsum generator (and some code examples were used as reference points although nothing was copied exactly.)
+The readings did add some additional knowledge on flexbox, and on using float to handle the text nicely (particularly how the margins work with float.)
 
-- Background image: https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
-- Linear Gradient: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
-- Dropshadow filter: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow
-- GithubCopilot - I used github copilot to quickly add function comments (javascript like java docs)
-- Lorem Ipsum generator - https://www.lipsum.com/
-- Html radio buttons - https://www.w3schools.com/tags/att_input_type_radio.asp
+- Float: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
+- FlexBox: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- Positioning: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+
 
 ## Closing thoughts

@@ -15,23 +15,30 @@ img {
   padding: 50px 20px;
   margin: 0 auto;
   max-width: 980px;
+  text-align: center;
 }
 
 .grid {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+  display: flex;
 }
 
 nav {
   background-color: #000;
   padding: .5em;
+  position: sticky;
+  top: 10px;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
 }
 
 nav a {
@@ -44,8 +51,18 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.photos li {
+  max-width: 45%;
 }
 
 .feature {
     width: 200px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
 }
